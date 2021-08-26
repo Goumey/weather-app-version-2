@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./java/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/pressure.css">
+    <title>Pressure</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="logo">
+                <li><a href=""><img src="./img/logo.png" height="40" width="40" alt=""><span> Weather app</span></a></li>
+            </ul>
+            <ul class="lien">
+              <Li><a href="pressure.html">Current</a></Li>
+              <Li><a href="forecast.html">Forecast</a></Li>
+              <Li><a href="index.html">Open Weather Map</a></Li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="blue">
+            <h1>Get Current Weather Information</h1>
+        </div>
+        <div class="contents">
+            <div>
+            <form action="">
+        <label for="city">Enter your city:</label>
+        <input type="text" placeholder="Enter your city">
+        <button type="submit">Search by city</button>
+        </form>
+        <div class="resultat">
+            <h2>current weather for <span id="name"></span>, <span id="country"></span></h2>
+            <div><p>Weather: </p ><p id="weather"></p></div>
+            <div class="p" ><p>Description : </p><p class="image"><img src="" alt="" id="image" width="70" height="70"></p><p id="description"></p></div>
+            <div><p>Temperature : </p><p id="temperature"></p></div>
+            <div><p>Pressure : </p><p id="pressure"></p></div>
+            <div><p>Humidity : </p><p id="humidity"></p></div>
+            <div><p>Min temperature : </p><p id="mintemp"></p></div>
+            <div><p>Max temperature : </p><p id="maxtemp"></p></div>
+            <div><p>Wind Speed : </p><p id="speed"></p></div>
+            <div><p>Wind direction : </p><p id="deg"></p></div>
+           
+        
+        </div>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <h2>Copyrigth@ Weather App</h2>
+    </footer>
+    <script src="./java/script.js"></script>
+</body>
+</html>

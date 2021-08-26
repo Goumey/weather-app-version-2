@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./java/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style/forecast.css">
+    <title>Forecast</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="logo">
+                <li><a href=""><img src="./img/logo.png" height="40" width="40" alt=""> Weather app</a></li>
+            </ul>
+            <ul class="lien">
+              <Li><a href="pressure.html">Current</a></Li>
+              <Li><a href="forecast.html">Forecast</a></Li>
+              <Li><a href="index.html">Open Weather Map</a></Li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="blue">
+            <h1>Get Current Weather Forecast</h1>
+        </div>
+        <div class="contents">
+            <div>
+            <form action="">
+        
+        <label for="city">Enter your city:</label>
+        <input type="text" id="citys" placeholder="Enter your city">
+        <input type="text" id="number" placeholder="Number: Min-1 & Max-16">
+        <button type="submit">Search by city</button>
+        </form>
+        <div class="resultat">
+            <h2>current weather for <span id="name"></span>, <span id="country"></span></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th><br>Icon</th>
+                        <th><br>Weather</th>
+                        <th><br>Description</th>
+                        <th>Night <br> Temperature</th>
+                        <th>Morning <br>Temperature</th>
+                        <th>Min. <br>Temperature</th>
+                        <th>Max. <br>temperature</th>
+                        <th><br>Pressure</th>
+                        <th><br>Humidity</th>
+                        <th>Wind<br> Speed</th>
+                        <th>wind<br> direction</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        
+        </div>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <h2>Copyrigth@ Weather App</h2>
+    </footer>
+    <script src="./java/forecast.js"></script>
+</body>
+</html>
