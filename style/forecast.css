@@ -102,6 +102,7 @@ th{
 }
 .resultat{
     display: none;
+    width: 100%;
 }
 table{
    border-collapse: collapse;
@@ -116,4 +117,10 @@ footer{
     margin-top:50px ;
   
    
+}
+@media screen and (max-width:670px) {
+    .resultat{
+    
+        width: 100%;
+    }
 }

@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 /*header*/
 li{
@@ -82,16 +83,18 @@ input{
 .resultat{
     background-color: rgb(74, 161, 243);
     color: #fff;
-    font-size: 1.6em;
+    font-size: 1em;
     font-weight: bold;
-    width: 600px;
+ 
     border-radius: 8px;
-    padding:5px 30px;
+    padding:5px 0;
+    padding-left: 10px;
     display: none;
 }
 .resultat div {
 display: flex;  
-height: 50px;  
+height: 50px;
+width: 80%;  
 }
 .image{
     margin: 0;
